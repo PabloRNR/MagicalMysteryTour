@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h2{
+    background-color: paleturquoise;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+table{
+    background-color: royalblue;
+}
+
+.columna1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
