@@ -1,0 +1,67 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Stick No Bills', sans-serif;*/
+
+.Encabezado{
+    background: rgb(161, 151, 168);
+background: linear-gradient(90deg, rgb(135, 187, 155) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+color: black;
+height: 30%;
+width: 650px;
+/*box-shadow: 10px 10px 15px black;  eje x eje y blur color */
+box-shadow: 17px 17px 21px 4px rgba(0,0,0,0.73);
+margin-bottom: 20px;
+text-align: center;
+}
+
+.Caja_imagen{
+    width: 640px;
+    height: 250px;
+    background-color: rgb(161, 151, 168);
+    /*border-radius: 20px 10px 5px 15px;*/
+    /*border: 1px solid black;*/
+    /* border-radius: 86px 86px 86px 86px; */
+    border: 5px solid #ff6550;
+    /* padding: 20px; */
+    box-sizing:initial;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* .p{
+    margin: 0;
+} */
+
+.texto p {
+    margin: 0;
+}
+
+
+h1{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 50px;
+}
+
+.texto h1{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 33px;
+}
+
+.texto h2 {
+    font-family: 'Stick No Bills', sans-serif;
+}
+.texto{
+    width: 650px;
+    column-count: 3;
+    column-gap: 50px;
+    background-color: rgb(161, 151, 168);
+    column-rule: 1px solid black;
+}
+
+.texto ul{
+font-family: 'Oswald', sans-serif;
+}
+
+.iconos {
+    font-size: 60px;
+    color: black;
+}
