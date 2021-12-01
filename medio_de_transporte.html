@@ -8,28 +8,28 @@
 <body>
 	<script>
 		var distancia;
-		// var nota;
+		// var valor;
 	
 		distancia=prompt('Ingrese distancia:','');
 		// nota=prompt('Ingrese su nota:','');
-		valor = parseInt(distancia)
+		let valor = parseInt(distancia)
 		let valueInt = parseInt(distancia)
 		if (!Number.isInteger(valueInt)) {
 			document.write('Debe ingresar un valor numérico');
 		}else{			
-			if (distancia<0){
+			if (valor<0){
 				document.write('Ingrese una distancia mayor o igual a 0');	
 			}else{
-				if (distancia>=0 && distancia <=1000 ){
+				if (valor>=0 && valor <=1000 ){
 					document.write('El medio de transporte adecuado es ir a PIE');
 				}else{
-					if (distancia>1000 && distancia <=10000 ){
+					if (valor>1000 && valor <=10000 ){
 						document.write('El medio de transporte adecuado es la BICICLETA');
 					}else{
-						if (distancia>10000 && distancia <=30000  ){
+						if (valor>10000 && valor <=30000  ){
 							document.write('El medio de transporte adecuado es el COLECTIVO');
 						}else{	
-							if (distancia>30000 && distancia <=100000  ){
+							if (valor>30000 && valor <=100000  ){
 								document.write('El medio de transporte adecuado es el AUTO');
 							}else{
 								document.write('El medio de transporte adecuado es el AVION');
