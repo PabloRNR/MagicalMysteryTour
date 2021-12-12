@@ -1,0 +1,101 @@
+<!-- var alumnos = [
+  {
+    nombre: 'Juan Gomez',
+    nota: 7
+  }, {
+    nombre: 'Pedro Rodriguez',
+    nota: 4
+  }, {
+    nombre: 'Roxana García',
+    nota: 8
+  }, {
+    nombre: 'Luciano Lopez',
+    nota: 5
+  }, {
+    nombre: 'Fernanda Gimenez',
+    nota: 6
+  }, {
+    nombre: 'Florencia Martinez',
+    nota: 10
+  }, {
+    nombre: 'Raul Sanchez',
+    nota: 7
+  }, {
+    nombre: 'Sandra Figueroa',
+    nota: 8
+  }
+]; -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Javascript - Parte 2</title>
+</head>
+<body>
+    <script>
+
+
+var array_alumnos = [
+  { nota: 7, alumno: "Juan Gomez"},
+  { nota: 4, alumno: "Pedro Rodriguez"},
+  { nota: 8, alumno: "Roxana García"},
+  { nota: 5, alumno: "Luciano Lopez"},
+  { nota: 6, alumno: "Fernanda Gimenez"},
+  { nota: 10, alumno: "Florencia Martinez"},
+  { nota: 7, alumno: "Raul Sanchez"},
+  { nota: 8, alumno: "Sandra Figueroa"}
+];
+
+// const filtered = array_alumnos.filter(function(element){
+//   return element.nota >= 7;
+
+
+  var aprobados = array_alumnos.filter(function (alumno_func){ 
+    return alumno_func.nota >= 7; //[2, 4, 6, 8,10]
+});
+
+console.log(aprobados);
+console.log(`${aprobados.length} aprobados`);
+// function mostrarAprobados(alumnos,notas){
+// 		var num;
+// 		num=prompt('Ingrese número de mes:','');
+// 		num=parseInt(num);
+
+// 		document.write('Corresponde al mes: '+ meses[num-1]);
+// 		document.write('<br>');
+// 		document.write('Tiene '+dias[num-1]+' días');
+// 	}
+
+
+//     var alumnos; 
+// 	alumnos=new Array(8);
+// 	alumnos[0]='Juan Gomez';
+// 	alumnos[1]='Pedro Rodriguez';
+// 	alumnos[2]='Roxana García';
+// 	alumnos[3]='Luciano Lopez';
+// 	alumnos[4]='Fernanda Gimenez';
+// 	alumnos[5]='Florencia Martinez';
+// 	alumnos[6]='Raul Sanchez';
+// 	alumnos[7]='Sandra Figueroa';
+
+// 	var notas;
+// 	notas=new Array(8);
+// 	notas[0]=7;
+// 	notas[1]=4;
+// 	notas[2]=8;
+// 	notas[3]=5;
+// 	notas[4]=6;
+// 	notas[5]=10;
+// 	notas[6]=7;
+// 	notas[7]=8;
+	
+//     //var aprobados = numeros.filter(num => num % 2 ===0); 
+//     mostrarAprobados(alumnos,notas)
+
+    </script>
+</body>
+</html>

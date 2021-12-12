@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Javascript - Parte 2</title>
+</head>
+
+<body>
+    <!-- <button onClick="Mycolor()">Change Color</button>
+    <div id="myID">Hello World</div>
+    <script type='text/javascript'>
+    function Mycolor() {
+    var element = document.getElementById("fondo");
+    element.style.backgroundColor='#900';
+    }
+    </script> -->
+
+<div class="caja_de_colores">
+    <div class="sq red" onclick="change_background('red')"></div>
+    <div class="sq green" onclick="change_background('green')"></div>
+    <div class="sq blue" onclick="change_background('blue')"></div>
+</div>
+    <style>
+        .caja_de_colores{
+            display: flex;
+        }
+
+        .sq{
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        .green{
+            background-color: green;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+    </style>
+    <script>
+        function change_background(color){
+        document.querySelector('body').style.background = color;
+    }
+    </script>
+</body>
+
+</html>

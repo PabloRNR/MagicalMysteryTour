@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Javascript - Parte 2</title>
+</head>
+
+<body>
+    <textarea name="texto" onkeyup="cuenta_caracteres(this);"></textarea>
+    <p id="numero_caracteres">0 caracteres</p>
+
+    <script>
+
+    function cuenta_caracteres(obj){
+        document.getElementById("numero_caracteres").innerHTML = obj.value.length+' caracteres';
+    }
+    </script>
+</body>
+
+</html>
